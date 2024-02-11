@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+color:blueviolet
+}
+
+header {
+  height: 75px;
+  border: 1px solid #487;
+}
+
+main {
+  height: calc(100% - 150px);
+}
+
+footer {
+  height: 75px;
+  border: 1px solid #487;
+}
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-content {
+  margin-top: 10px;
+}
+
+.card-link {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
