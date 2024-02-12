@@ -5,7 +5,14 @@ color:blueviolet
 
 header {
   height: 75px;
-  border: 1px solid #487;
+  border-bottom: 1px solid #487;
+}
+
+.header-wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
 }
 
 main {
@@ -14,7 +21,10 @@ main {
 
 footer {
   height: 75px;
-  border: 1px solid #487;
+  border-top: 1px solid #487;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

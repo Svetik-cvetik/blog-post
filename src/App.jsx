@@ -5,6 +5,7 @@ import Contacts from "./components/pages/Contacts";
 import NotFound from "./components/pages/NotFound";
 import { Routes, Route } from "react-router-dom";
 import { MainLayout } from "./components/layouts/MainLayout";
+import ArticlesPage from "./components/pages/Articles";
 
 
 export const App = () => {
