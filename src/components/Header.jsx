@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="header-wrapper">
       <Link to="/">Home</Link>
-      <Link to="/about">Articles</Link>
+      <Link to="/articles">Articles</Link>
       <Link to="/contacts">Contacts</Link>
     </div>
   );

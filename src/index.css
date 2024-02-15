@@ -13,10 +13,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 40px;
+
 }
 
 main {
-  height: calc(100% - 150px);
+  height: calc(100vh - 150px);
+  
 }
 
 footer {
@@ -24,20 +26,20 @@ footer {
   border-top: 1px solid #487;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-
 
 .card {
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 10px;
   margin: 10px;
+  
 }
 
 .card-title {
   font-size: 18px;
   font-weight: bold;
+  
 }
 
 .card-content {

@@ -7,7 +7,10 @@ const ArticlesPage = () => {
   useEffect(() => {
     fetch('https://api.slingacademy.com/v1/sample-data/blog-posts')
       .then(response => response.json())
-      .then(data => setArticles(data));
+      .then(data => {
+        console.log (data.blogs)
+        setArticles(data.blogs);
+      })
   }, []);
 
   return (
